@@ -35,6 +35,8 @@ Translate command is
 -src projects/ins_del_edit/train.src
 ```
 
+We evaluate the final result with NLG-EVAL(https://github.com/Maluuba/nlg-eval)
+
 ## Acknowledgement
 A large part of this code is borrowed from Open-NMT-Pytorch. 
 
