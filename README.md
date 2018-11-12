@@ -36,7 +36,10 @@ Translate command is
 ```
 
 We evaluate the final result with NLG-EVAL(https://github.com/Maluuba/nlg-eval)
+## Requirement
+Pytorch >= 0.4
 
+The devlopment environment of the project is windows, so some minor changes may be required when running with Linux. 
 ## Acknowledgement
 A large part of this code is borrowed from Open-NMT-Pytorch. 
 
@@ -50,3 +53,5 @@ Please cite our paper if you use related resource of our code.
   year={2018}
 }
 ```
+## Note 
+It seems that the code does not work when layer num is not 1. 
