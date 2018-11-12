@@ -1,4 +1,18 @@
 import random
+
+def sampleData():
+    f1 = open(r"D:\users\wuyu\Data\DoubanReverse37Trick\Train\query_meta.txt","r",encoding="utf-8")
+    f2 = open(r"D:\users\wuyu\Data\DoubanReverse37Trick\Train\response.txt","r",encoding="utf-8")
+
+    fw1 = open(r"D:\users\wuyu\pythoncode\ResponseEdit\projects\ins_del_edit\train.src","w",encoding="utf-8")
+    fw2 = open(r"D:\users\wuyu\pythoncode\ResponseEdit\projects\ins_del_edit\train.tgt","w",encoding="utf-8")
+
+
+    for i in range(10000):
+        fw1.write(f1.readline())
+        fw2.write(f2.readline())
+sampleData()
+
 def buildrawdata():
     basepath = r"D:\users\wuyu\Data\DoubanReverse37Trick"
 
@@ -47,7 +61,7 @@ def buildrawdata():
         #     f6.write("\n")
         #     f5m.write(u"{0}\t{1}\n".format(tmp[0], tmp[2]))
 
-buildrawdata()
+#buildrawdata()
 
 def buildquerymeta():
     f = open(r"D:\users\wuyu\Data\DoubanReverse37Trick\Train\query.txt","r",encoding="utf-8")

@@ -91,9 +91,9 @@ def main():
             items = line.split('\t')
             srcTokens = items[0].strip().split(' ')
             srcBatch += [srcTokens]
-            srcTokens = items[2].strip().split(' ')
-            srcInsBatch += [srcTokens]
             srcTokens = items[1].strip().split(' ')
+            srcInsBatch += [srcTokens]
+            srcTokens = items[2].strip().split(' ')
             srcDelBatch += [srcTokens]
             if tgtF:
                 tgtTokens = tgtF.readline().split(' ') if tgtF else None
