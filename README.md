@@ -41,7 +41,7 @@ train, dev and test data are formatted as
 
 "current context \t current response \t prototype context \t prototype response" .
 
-As the input format of our code is "prototype context \t ins words \t del words", you should further format data like that. File projects/train.src shows the format of input. Please find data at here https://drive.google.com/file/d/1JvMpHU0F8l_-DuxfwWaX6vZ8O34G3Nx-/view?usp=sharing
+As the input format of our code is "prototype context \t ins words \t del words", you should further format data like that. File projects/train.src shows the format of input. Please email us if you need the dataset. 
 
 ## Reference 
 Please cite our paper if you use related resource of our code. 
