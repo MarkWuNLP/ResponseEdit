@@ -1,13 +1,6 @@
 # ResponseEdit
 Resources of our paper at AAAI-19 ``Response Generation by Context-aware Prototype Editing"
 
-## Data Format
-test.txt and dev.txt are formatted as 
-
-"current context \t current response \t prototype context \t prototype response" .
-
-As the input format of our code is "prototype context \t ins words \t del words", we further provide test_format.txt and dev_format.txt. Training dataset follows the same rule. File projects/train.src shows the format of input. 
-
 ## Code
 train.py and console_translate.py in the edit folder are the entires of the training and testing process. Please write 
 ```
@@ -42,6 +35,13 @@ Pytorch >= 0.4
 The devlopment environment of the project is windows, so some minor changes may be required when running with Linux. 
 ## Acknowledgement
 A large part of this code is borrowed from Open-NMT-Pytorch. 
+
+## Data Format
+train, dev and test data are formatted as 
+
+"current context \t current response \t prototype context \t prototype response" .
+
+As the input format of our code is "prototype context \t ins words \t del words", you should further format data like that. File projects/train.src shows the format of input. 
 
 ## Reference 
 Please cite our paper if you use related resource of our code. 
