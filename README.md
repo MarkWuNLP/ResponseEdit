@@ -1,5 +1,5 @@
 # ResponseEdit
-Resources of our paper at AAAI-19 ``Response Generation by Context-aware Prototype Editing"
+Resources of our paper at AAAI-19 ``Response Generation by Context-aware Prototype Editing" [link](https://arxiv.org/abs/1806.07042)
 
 ## Code
 train.py and console_translate.py in the edit folder are the entires of the training and testing process. Please write 
