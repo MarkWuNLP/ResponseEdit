@@ -41,7 +41,7 @@ train, dev and test data are formatted as
 
 "current context \t current response \t prototype context \t prototype response" .
 
-As the input format of our code is "prototype context \t ins words \t del words", you should further format data like that. File projects/train.src shows the format of input. Please email us if you need the dataset. 
+As the input format of our code is "prototype response \t ins words \t del words", you should further format data like that. File projects/train.src shows the format of input. Please email us if you need the dataset. 
 
 ## Baseline
 Yunli Wang, a Master student of Beihang University, helped me to implement the method proposed in "Two are Better than One: An Ensemble of Retrieval- and Generation-Based Dialog Systems" (https://arxiv.org/abs/1610.07149). The source code is uploaded to https://github.com/jimth001/Bi-Seq2Seq
